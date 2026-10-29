@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+    <title>portal berita IT</title>
+</head>
+<body>
+       <header>
+        <h1>Universitas yudharta pasuruan</h1>
+        <nav>
+            <ul> 
+                <li><a href="#home" target="_blank"></a>beranda
+                <li><a href="#berita">Berita</a>
+            </ul>
+        <nav>
+        <header>
+        <main>
+            <article>
+                <h2>Mahasiswa IT Kembangkan Aplikasi Full Stack</h2>
+                <p>Semester ini berfokus pada vuejs dan hono</p>
+            </article>
+
+            <section>
+                 <h2>Tata cara memasak nasi</h2>
+                <ol>
+                    <li>Masukkan beras</li>
+                    <li>Cuci beras</li>
+                    <li>Masak</li>
+                    <li>Nasi matang</li>
+                </ol>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy: 2026 Portal Berita</p>
+        </footer>
+
+</body>
+</html>

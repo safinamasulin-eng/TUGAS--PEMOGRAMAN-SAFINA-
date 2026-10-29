@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Berita Yudharta</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #111111;
+            background: #e60a0a;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* ===== HEADER / NAVBAR (Flexbox) ===== */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 16px 24px;
+            background: #ec94b6;
+            color: #fff;
+        }
+
+        header h1 {
+            font-size: 1.2rem;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== MAIN ===== */
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 24px 16px;
+        }
+
+        main h2 {
+            margin-bottom: 10px;
+        }
+
+        article,
+        section {
+            background: #f17777;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 24px;
+        }
+
+        ol {
+            margin-left: 20px;
+        }
+
+        /* ===== GRID KARTU (auto-fit) ===== */
+        .daftar-kartu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+
+        .kartu {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 16px;
+        }
+
+        .kartu h3 {
+            font-size: 1.05rem;
+            margin-bottom: 6px;
+        }
+
+        .kartu p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        /* ===== FOOTER (Flexbox) ===== */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 16px 24px;
+            background: #a9bacf;
+            color: #130f0f;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Safinatul firdaus masulin</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#berita">Berita</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="beranda">
+        <article id="berita">
+            <h2>Mahasiswa IT Kembangkan Aplikasi Full Stack</h2>
+
+            <p>
+                Semester ini berfokus pada Vue.js dan Hono.
+        </article>
+
+
+        <section>
+            <h2>hallow sahabat IT </h2>
+
+            <div class="daftar-kartu">
+                <div class="kartu">
+                    <h3>Berita dan kegiatan terbaru</h3>
+                    <p>Mahasiswa mempelajari komponen, reaktivitas, dan routing untuk membangun antarmuka web.</p>
+                </div>
+
+                <div class="kartu">
+                    <h3>Membuat API dengan Hono</h3>
+                    <p>Framework ringan untuk membangun REST API yang cepat dan mudah dipelajari.</p>
+                </div>
+
+                <div class="kartu">
+                    <h3>Portofolio Aplikasi Full Stack
+</h3>
+                    <p>Hasil proyek akhir semester dikumpulkan sebagai portofolio mahasiswa IT.</p>
+                </div>
+
+                <div class="kartu">
+                    <h3>Layout Responsif dengan Flexbox dan Grid</h3>
+                    <p>Tampilan web yang menyesuaikan layar mobile, tablet, hingga desktop..</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy 2026 Teknik Informatika</p>
+        <p>Universitas Yudharta Pasuruan</p>
+    </footer>
+
+</body>
+</html>
